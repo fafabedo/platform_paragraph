@@ -2,6 +2,7 @@
     "name": "fafabedo/platform-paragraph",
     "type": "drupal-module",
     "description": "Platform paragraph",
+    "license": "GPL-2.0+",
     "keywords": [
     ],
     "homepage": "https://www.drupal.org/project/platform_paragraph",
