@@ -1,0 +1,9 @@
+name: "Platform Paragraph"
+type: module
+description: "Platform paragraph"
+core: 8.x
+package: "bedofafa"
+
+dependencies:
+  - paragraphs:paragraphs
+  - drupal:media

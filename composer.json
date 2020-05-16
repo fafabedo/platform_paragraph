@@ -1,0 +1,16 @@
+{
+    "name": "platform_paragraph",
+    "type": "drupal-module",
+    "description": "Platform paragraph",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/platform_paragraph",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/platform_paragraph",
+        "source": "http://cgit.drupalcode.org/platform_paragraph"
+    },
+    "require": {
+        "drupal/paragraphs": "^1.11"
+    }
+}
