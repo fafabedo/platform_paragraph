@@ -1,9 +1,12 @@
-name: "Platform Paragraph"
+name: "Tree Paragraph Collection"
 type: module
 description: "Platform paragraph"
 core: 8.x
 package: "bedofafa"
+version: '8.x-1.0'
+project: 'tree_paragraph_collecion'
 
 dependencies:
   - paragraphs:paragraphs
   - drupal:media
+

@@ -1,8 +1,8 @@
 {
-    "name": "fafabedo/platform-paragraph",
+    "name": "fafabedo/tree-paragraph-collecion",
     "type": "drupal-module",
-    "description": "Platform paragraph",
-    "license": "GPL-2.0+",
+    "description": "Tree paragraph collecion to be used for Tree Distribution",
+    "license": "MIT",
     "keywords": [
     ],
     "homepage": "https://www.drupal.org/project/platform_paragraph",
@@ -12,6 +12,7 @@
         "source": "http://cgit.drupalcode.org/platform_paragraph"
     },
     "require": {
+        "fafabedo/tree-platform-profile": "dev-master",
         "drupal/paragraphs": "^1.11"
     }
 }
