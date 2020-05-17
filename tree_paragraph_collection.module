@@ -10,13 +10,13 @@ use Drupal\Core\Routing\RouteMatchInterface;
 /**
  * Implements hook_help().
  */
-function platform_paragraph_help($route_name, RouteMatchInterface $route_match) {
+function tree_paragraph_collection_help($route_name, RouteMatchInterface $route_match) {
   switch ($route_name) {
     // Main module help for the platform_paragraph module.
-    case 'help.page.platform_paragraph':
+    case 'help.page.tree_paragraph_collection':
       $output = '';
       $output .= '<h3>' . t('About') . '</h3>';
-      $output .= '<p>' . t('Platform paragraph') . '</p>';
+      $output .= '<p>' . t('Tree paragraph collection') . '</p>';
       return $output;
 
     default:
@@ -26,9 +26,9 @@ function platform_paragraph_help($route_name, RouteMatchInterface $route_match) 
 /**
  * Implements hook_theme().
  */
-function platform_paragraph_theme() {
+function tree_paragraph_collection_theme() {
   return [
-    'platform_paragraph' => [
+    'tree_paragraph_collection' => [
       'render element' => 'children',
     ],
   ];

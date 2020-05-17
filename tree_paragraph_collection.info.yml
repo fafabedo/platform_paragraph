@@ -4,7 +4,7 @@ description: "Platform paragraph"
 core: 8.x
 package: "bedofafa"
 version: '8.x-1.0'
-project: 'tree_paragraph_collecion'
+project: 'tree_paragraph_collection'
 
 dependencies:
   - paragraphs:paragraphs
